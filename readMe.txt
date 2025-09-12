@@ -1,0 +1,1 @@
+voor testen "npx test" in de terminal
