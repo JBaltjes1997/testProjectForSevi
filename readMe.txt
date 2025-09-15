@@ -1,1 +1,1 @@
-voor testen "npx test" in de terminal
+voor testen "npm test" in de terminal

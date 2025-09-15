@@ -23,4 +23,7 @@ async function fetchData() {
       }
     }
 
+
     fetchData();
+
+    module.export = fetchData;
