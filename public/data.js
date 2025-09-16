@@ -1,4 +1,6 @@
-async function fetchData() {
+// const { model } = require("mongoose");
+
+  async function fetchData() {
       try {
         const res = await fetch('/api/data');
         const data = await res.json();
@@ -22,8 +24,9 @@ async function fetchData() {
         console.error(err);
       }
     }
+  
 
+    // fetchData();
 
-    fetchData();
-
-    module.export = fetchData;
+    // module.export = fetchData;
+    module.exports = fetchData;
